@@ -1,0 +1,55 @@
+EXERCISE 1
+
+You have a file structure that begins looking like this:
+
+📁ROOT
+    file0.txt
+    file1.txt
+    
+where your current working directory begins at ./ROOT
+
+The following commands are executed in the command line:
+
+touch file2.txt
+mkdir level1
+cd level1
+mkdir level2
+mkdir level3
+
+Now, draw the resulting file structure and an arrow indicating where the current working directory is located.
+
+--------------------------------------------------------------------
+EXERCISE 2
+
+You have a file structure that begins looking like this:
+
+📁ROOT
+    📁LEVEL1
+        📁LEVEL2
+            file_to_delete.txt
+    
+where your current working directory begins at ./ROOT
+
+You have two tasks:
+    1. Using one command, move the file from LEVEL2 to LEVEL1, keeping the same name. Write this command as your answer.
+    2. Using one command, delete the file now located in LEVEL1. Write this command as your answer.
+
+
+--------------------------------------------------------------------
+EXERCISE 3
+
+You have a file structure that begins out looking like this:
+
+📁ROOT
+    📁LEVEL1
+        file1.txt
+        📁LEVEL2
+            file2.txt
+            
+where your current working directory begins at ./ROOT
+
+The following commands are executed in the command line:
+cd LEVEL1
+rm file2.txt
+
+What happens? Why?
