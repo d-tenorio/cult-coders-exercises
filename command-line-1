@@ -34,6 +34,8 @@ You have two tasks:
     1. Using one command, move the file from LEVEL2 to LEVEL1, keeping the same name. Write this command as your answer.
     2. Using one command, delete the file now located in LEVEL1. Write this command as your answer.
 
+Hint:
+- the mv command is your friend
 
 --------------------------------------------------------------------
 EXERCISE 3
