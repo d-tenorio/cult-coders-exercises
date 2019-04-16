@@ -3,8 +3,8 @@ EXERCISE 1
 You have a file structure that begins looking like this:
 
 📁ROOT
-    file0.txt
-    file1.txt
+    🗎file0.txt
+    🗎file1.txt
     
 where your current working directory begins at ./ROOT
 
@@ -26,7 +26,7 @@ You have a file structure that begins looking like this:
 📁ROOT
     📁LEVEL1
         📁LEVEL2
-            file_to_delete.txt
+            🗎file_to_delete.txt
     
 where your current working directory begins at ./ROOT
 
@@ -38,13 +38,13 @@ You have two tasks:
 --------------------------------------------------------------------
 EXERCISE 3
 
-You have a file structure that begins out looking like this:
+You have a file structure that begins looking like this:
 
 📁ROOT
     📁LEVEL1
-        file1.txt
+        🗎file1.txt
         📁LEVEL2
-            file2.txt
+            🗎file2.txt
             
 where your current working directory begins at ./ROOT
 
@@ -53,3 +53,23 @@ cd LEVEL1
 rm file2.txt
 
 What happens? Why?
+
+--------------------------------------------------------------------
+EXERCISE 4
+You have a file structure that begins looking like this:
+
+📁ROOT
+    📁LEVEL1
+        🗎file1.txt
+        📁LEVEL2
+            🗎file2.txt
+            
+where your current working directory begins at ./ROOT
+
+The following commands are executed in the command line:
+cd LEVEL1
+rmdir LEVEL2
+mkdir LEVEL3
+cd LEVEL3
+rm LEVEL3
+
