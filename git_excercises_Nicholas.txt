@@ -80,14 +80,7 @@ You have a file structure that begins looking like this:
             
 where your current working directory begins at ./ROOT
 
-The following commands are executed in the command line:
-cd LEVEL1
-rmdir LEVEL2
-mkdir LEVEL3
-cd LEVEL3
-rm LEVEL3
 
-Draw the resulting file structure. What command(s) did not execute properly and why?
 📁ROOT
     📁LEVEL1
         🗎file1.txt
