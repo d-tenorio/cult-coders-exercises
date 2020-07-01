@@ -18,6 +18,17 @@ mkdir level3
 
 Now, draw the resulting file structure and an arrow indicating where the current working directory is located.
 
+
+📁ROOT
+    🗎file0.txt
+    🗎file1.txt
+    🗎file3.txt
+    📁LEVEL1
+        📁LEVEL2
+        📁level3
+        
+    
+
 --------------------------------------------------------------------
 EXERCISE 2
 
